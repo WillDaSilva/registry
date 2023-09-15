@@ -30,8 +30,7 @@ REGISTRY_COMMIT="$(git_sha_short)"
 case ${1} in
     preview)
         PKGS=(
-            "aiven"
-            "aws"
+            "azure-native"
         )
 
         echo "Generating API docs for ${PKGS[*]}..."
